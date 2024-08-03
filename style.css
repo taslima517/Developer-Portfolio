@@ -8,10 +8,17 @@
 .m_header{
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
+    margin: 0 200px;
+
 }
 .m_header h1{
     text-align: center;
+
+    }
+.main_title{
+    font-size: 43px;
+
 }
 .m_header ul{
     display: flex;
@@ -20,6 +27,7 @@
     margin: 24px;
     list-style: none;
     font-size: 20px;
+    text-align: center;
    
 }
 li a{
@@ -27,8 +35,42 @@ li a{
 }
 .btn__primary{
     font-size:  20px;
-    border: none;
-    background-color: #fd6e0a;
+    border: 0;
+    background-color: #fd630a;
     color: white;
+    border-radius: 5px;
+    font-weight: 700;
     padding: 10px;
+    align-items: center;
+    text-align: center;
+
+
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+    margin-left: 150px;
+
+
+}
+.b_title{
+    font-size: 60px;
+    font-weight: 700px;
+}
+.b_gratting{
+    font-size: 40px;
+}
+.b_des{
+    font-size: 20px;
 }
